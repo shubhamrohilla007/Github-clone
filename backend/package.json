@@ -1,0 +1,18 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Github Clone",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Shubham Rohilla",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "aws-sdk": "^2.1693.0",
+    "uuid": "^14.0.3",
+    "yargs": "^18.2.0"
+  }
+}

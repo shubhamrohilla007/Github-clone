@@ -1,0 +1,27 @@
+
+# Dependencies
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Build files
+dist/
+build/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# AWS credentials and configuration
+backend/config/aws-config.js
+
+# Local ApnaGit repository data
+backend/.apnaGit/
